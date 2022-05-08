@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Aplicação",
+    "description": "Testando para melhorar.",
+    "author": "Gabriele do Nascimento Sousa",
+    "action":{
+        "default_icon": "search.png",
+        "default_title": "Aplicação",
+        "default_popup": "index.html"
+    },
+    "permissions":[
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        
+    ]
+}
