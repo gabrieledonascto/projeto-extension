@@ -1,0 +1,91 @@
+body{
+  width: 700px;
+  overflow: hidden !important;
+  font-family: 'Red Hat Display', sans-serif;
+}
+#searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+ 
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+ 
+
+input[type=text]:focus {
+  width: 70%;
+}
+ 
+#list{
+  font-size:  1.5em;
+  margin-left: 90px;
+}
+ 
+.animals{
+  display: list-item;    
+}
+
+.card .card-body li{
+  list-style-type: none;
+ }
+
+li{
+  list-style-type: none;
+ }
+
+ .content .ol .animals{
+  list-style-type: none;
+ }
+
+ .content {
+  list-style-type: none;
+ }
+
+.content{
+  padding: 40px 50px;
+  justify-content: center;
+  text-align: center;
+}
+.content .card{
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-color: #c4c8c8;
+  box-shadow: #000000;
+}
+
+h3{
+  font-weight: bolder !important;
+  padding: 0px 40px;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a :hover{
+  text-decoration: none;
+  color: inherit;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-toolbar{
+  justify-content: center !important;
+}
+
+.btn-toolbar a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-toolbar a:hover{
+  text-decoration: none;
+  color: inherit;
+}
